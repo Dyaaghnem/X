@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #000000;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 80vh;
+    padding: 0 100px;
+}
+
+.left-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.x-logo {
+    width: 350px;
+    height: auto;
+}
+
+.right-section {
+    flex: 1;
+    max-width: 400px;
+    margin-right: 50px;
+}
+
+.right-section h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.right-section h2 {
+    font-size: 1.5rem;
+    margin: 20px 0;
+}
+
+.sign-up-options button {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 10px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+.sign-up-options img {
+    margin-right: 10px;
+}
+
+.or-divider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.or-divider hr {
+    width: 30%;
+    border: 1px solid #666;
+}
+
+.or-divider span {
+    margin: 0 10px;
+    color: #666;
+}
+
+.create-account-btn {
+    width: 100%;
+    padding: 15px;
+    background-color: #1D9BF0;
+    color: #FFFFFF;
+    font-size: 1rem;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.terms {
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.terms a {
+    color: #1D9BF0;
+    text-decoration: none;
+}
+
+.login-link {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.login-link p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.signin-btn {
+    width: 100%;
+    padding: 15px;
+    background-color: transparent;
+    color: #1D9BF0;
+    font-size: 1rem;
+    border: 2px solid rgba(29, 155, 240, 0.5);
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-bottom: 20px;
+}
+
+.signin-btn:hover {
+    background-color: rgba(29, 155, 240, 0.1); 
+    border-color: #1D9BF0;
+}
+
+
+footer {
+    padding: 10px;
+    text-align: center;
+    background-color: #000000;
+}
+
+.footer-links a {
+    color: #666;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 0.8rem;
+}
+
+.footer-links span {
+    font-size: 0.8rem;
+    color: #666;
+}
